@@ -13,7 +13,7 @@ body{
     font-size: 28px;
     color: aliceblue;
     margin: 20px;
-    margin-left: 30px;
+    margin-left: 3em;
 }
 
 .container{
@@ -43,10 +43,10 @@ body{
 }
 
 .cronometro{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin: auto;
+    font-size: 42px;
+    margin: 2em;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 .numeros{
@@ -57,48 +57,50 @@ body{
 }
 
 .tópicos{
+    text-align: center;
     align-items: center;
     color: aliceblue;
-    display: flex;
+    display: grid;
    margin-left: 3em;
    margin-right: 3em;
    background-color: #3A375E;
    border-top-right-radius: 20px;
    border-top-left-radius: 20px;
+   grid-template-columns: 25% 25% 25% 25%;
 }
 
 .tópicos-item-1{
-    margin-top: -0.7em;
+    margin-top: 0;
     border-top-left-radius: 20px;
     font-size: 16px;
     padding: 20px;
     border-bottom: 5px solid black;
-    transition: 0.1s
+    transition: 0.2s
 }
 
 .tópicos-item-2{
-    margin-top: -0.7em;
+    margin-top: 0;
     font-size: 16px;
     padding: 20px;
     border-bottom: 5px solid black;
-    transition: 0.1s
+    transition: 0.2s
 }
 
 .tópicos-item-3{
-    margin-top: -0.7em;
+    margin-top: 0;
     font-size: 16px;
     padding: 20px;
     border-bottom: 5px solid black;
-    transition: 0.1s
+    transition: 0.2s
 }
 
 .tópicos-item-4{
-    margin-top: -0.7em;
+    margin-top: 0;
     border-top-right-radius: 20px;
     font-size: 16px;
     padding: 20px;
     border-bottom: 5px solid black;
-    transition: 0.1s
+    transition: 0.2s
 }
 
 
@@ -108,3 +110,17 @@ body{
     border-bottom: 5px solid var(--verdin);
 }
 
+.tópicos-item-2:hover{
+    background-color: #55517a;
+    border-bottom: 5px solid var(--verdin);
+}
+
+.tópicos-item-3:hover{
+    background-color: #55517a;
+    border-bottom: 5px solid var(--verdin);
+}
+
+.tópicos-item-4:hover{
+    background-color: #55517a;
+    border-bottom: 5px solid var(--verdin);
+}
