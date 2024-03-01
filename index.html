@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     
     <title>Projeto Alura</title>
 </head>
@@ -19,27 +22,23 @@
 <section class="container">
     <h1 class="estudar-texto">estudar 4 cursos alura</h1>
     <h1 class="tempo-texto">Tempo para terminar o objetivo</h1>
- <div class="cronometro">
-    <div class="dias">
-        <h1 class="numeros">7</h1>
-        <h1 class="tempo"></h1>
-    </div>
-
-    <div class="horas">
-        <h1 class="numeros">13</h1>
-        <h1 class="tempo"></h1>
-    </div>
-
-    <div class="minutos">
-        <h1 class="numeros">18</h1>
-        <h1 class="tempo"></h1>
-    </div>
-
-    <div class="segundos">
-        <h1 class="numeros">13</h1>
-        <h1 class="tempo"></h1>
-    </div>
+ <div class="cronometro"> 
+    <div class="timer"></div>
+    <div class="time" id="days">00</div>
+    <div class="separator">:</div> 
+    <div class="time" id="hours">00</div>
+    <div class="separator">:</div>
+    <div class="time" id="minutes">00</div>
+    <div class="separator">:</div>
+    <div class="time" id="seconds">00</div>
  </div>
+</div>
+<div class="buttons">
+    <button class="btn" id="startBtn"><img src="./img/play.png"></button>
+    <button class="btn" id="pause-btn"><img src="./img/pause.png" alt=""></button>
+    <button class="btn" id="resume-btn"><img src="./img/resume.png" alt=""></button>
+</div>
+
 
     
 </section>
